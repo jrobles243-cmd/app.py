@@ -29,9 +29,9 @@ def clickup_to_ninjaone():
     notes = f"ClickUp: {data.get('status', {}).get('name')}"
     
     # NinjaOne API
-    url = f"https://workplace.rmmservice.eu/v2/tickets/{ninja_id}"
+    url = f"https://workplace.rmmservice.eu/v2/tickets/{DLIJ6R919KPSA3LB7OQ7}"
     headers = {
-        "Authorization": f"Bearer {os.getenv('NINJAONE_TOKEN')}",
+        "Authorization": f"Bearer {os.getenv('31k92gtgaa8g60uoj17v21af73njl8sdfme2qnhc')}",
         "Content-Type": "application/json"
     }
     payload = {"status": ninja_status, "notes": notes}
